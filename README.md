@@ -4,6 +4,7 @@
 This repository contains my solution for the "AI Detection & Adversarial Attack" theme. The project moves from identifying 19th-century authors to building a detector that separates human writing from AI generation, explaining its decisions, and finally breaking it with an automated "Imposter" system.
 
 ## Repository Structure
+- **Task_0_DataGen.ipynb**: Data collection, cleaning, and preparation pipeline.
 - **Task1_Fingerprint.ipynb**: Stylometric analysis distinguishing roughly between Austen and Melville.
 - **Task2_Detector.ipynb**: The core detector. Trained on Human (Novels) vs. AI (Gemini) text.
 - **Task3_Explainability.ipynb**: Using SHAP to visualize why the detector flags certain paragraphs as AI.
