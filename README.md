@@ -24,7 +24,7 @@ I found that simple metrics (vocabulary richness, sentence depth) easily separat
 My Class C detector (DistilBERT + LoRA) achieved 100% accuracy. This suggests the specific "Human" dataset (classic novels) is so distinct from modern "Generic AI" writing that the problem became trivial for a Transformer.
 
 ### 3. The "Super-Imposter" (Adversarial Success)
-Using a custom Genetic Algorithm, I evolved a generic AI paragraph (initially 1% Human score) into a "Super-Imposter" scoring **95.8% Human**.
+Using a custom Genetic Algorithm, I evolved a generic AI paragraph (initially 1% Human score) into a "Super-Imposter" scoring **85.07% Human**.
 *   **Method:** I used an "Ultra-Low Resource" approach to respect strict API limits (20 calls/day), selecting only the single best survivor and mutating it just 3 times per generation.
 *   **Result:** The AI learned to mimic the archaic, dense style of the training data (e.g., "vital frame," "solemn demands"). It didn't become more "human" in a general sense; it became a Victorian novelist.
 
