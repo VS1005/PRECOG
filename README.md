@@ -1,5 +1,3 @@
-# Precog Recruitment Task 2026: AI Detection & Adversarial Evolution
-
 ## Overview
 This repository contains my solution for the "AI Detection & Adversarial Attack" theme. The project moves from identifying 19th-century authors to building a detector that separates human writing from AI generation, explaining its decisions, and finally breaking it with an "Imposter" system.
 
